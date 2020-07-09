@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/it1"
+        android:title="Change Theme"
+        android:icon="@drawable/ic_baseline_nights_stay_24">
+    <menu>
+
+        <item
+            android:id="@+id/sit1"
+            android:title="Dark Mode"/>
+        <item
+            android:id="@+id/sit2"
+            android:title="Light Theme"/>
+
+
+</menu>
+    </item>
+<item
+    android:title="Open Camera"
+    android:id="@+id/it2"
+    android:icon="@drawable/ic_baseline_photo_camera_24"
+    />
+</menu>
